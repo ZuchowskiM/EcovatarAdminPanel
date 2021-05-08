@@ -1,0 +1,275 @@
+.container {
+  padding-top: 10px;
+}
+
+.form-container,
+.table-container 
+{
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.form-container
+{
+    border:thin solid #aaaaaa;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background: #f7f7f7;
+}
+
+
+.logout
+{
+    margin-bottom:30px;
+}
+
+/* link buttons */
+.green-button,
+.red-button,
+.blue-button
+{
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 7px 10px;
+  font-size: 0.875rem;
+  line-height: normal;
+  border-radius: 0.2rem;
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+  margin-right: 10px;
+  position: relative;
+  top: 1px;  
+  text-decoration: none;
+  cursor:pointer;
+}
+
+.green-button
+{
+    background-color: #28a745; 
+}
+
+.red-button
+{
+    background-color: #dc3545;
+}
+
+.blue-button
+{
+    background-color: #3545dc;
+}
+
+.green-button:hover,
+.red-button:hover,
+.blue-button:hover
+{
+    text-decoration: none;
+    color:#fff;
+}
+
+.green-button:hover
+{
+    background-color: #107020; 
+}
+
+.red-button:hover
+{
+  background-color: #a01020; 
+}
+
+.blue-button:hover
+{
+  background-color: #1020a0; 
+}
+/* end of link buttons */
+
+
+
+
+input [type="button"] 
+{
+color:pink;
+}
+
+
+
+
+
+
+/* table of cars */
+/* .table-container table
+{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.table-container thead
+{
+    background-color: #aaa;
+    color:#fff;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.table-container tbody tr
+{
+    height:3em;
+}
+
+.table-container thead th,
+.table-container tbody td
+{
+    padding:5px;
+}
+.table-container tbody tr:nth-child(odd) 
+{
+    background-color: #eee;
+}
+
+.table-container tbody tr:nth-child(even) 
+{
+    background-color: #ffa;
+}
+
+.add-new-car
+{
+    margin-top:1em;
+} */
+/*end of table of cars */
+
+.error
+{
+    margin:5px;
+    padding:5px;
+    margin-top:0px;
+    padding-top:0px;
+    color:red;
+}
+
+#loginForm 
+{
+    font-family: 'Open Sans', serif;
+    width:300px;
+    border:thin solid #aaaaaa;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background: #f7f7f7;
+}
+
+#loginForm input
+{
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+
+#loginForm input.error
+{
+    border-color: red;
+}
+
+#loginForm div.error
+{
+    margin:10px;
+    padding:2px;
+    margin-top:0px;
+    padding-top:0px;
+    color:red;
+}
+
+#loginForm div.error ul
+{
+    margin-left:0px;
+    padding-left:0px;
+    
+}
+
+#loginForm div.error li
+{
+    margin-left:0px;
+    padding-left:0px;
+    
+}
+
+#loginForm input 
+{
+    box-sizing: border-box;
+}
+
+#loginForm input:focus
+{
+    border-radius: 0px;
+    border-color:blue;
+}
+
+#loginForm input[type=submit] 
+{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #84c00c;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+#loginForm input[type=submit]:hover 
+{
+    background-color: #669509;
+}
+
+#loginForm input[type=submit]:disabled 
+{
+    background-color: #dbf99f;
+    color: #fcc;
+}
+
+.loginScreen
+{
+    font-family: 'Open Sans', serif;
+    background-image: url(https://images.unsplash.com/photo-1576521527942-d2e27a843bc3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.open-sans-font
+{
+    font-family: 'Open Sans', serif;
+}
+
+.fixed-th
+{
+    width: 20vh;
+}
+
+.gradient-background
+{
+    background: linear-gradient(0deg, rgba(8,72,3,1) 0%, rgba(0,255,85,1) 100%);
+}
+
+.text-center-helper {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.table > thead > tr > th {
+    vertical-align: middle;
+}
